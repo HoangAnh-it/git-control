@@ -49,7 +49,7 @@ GIT REMOTE includes:
 Ex:
 Before merging: (HEAD)C1 <= C2 <= C3(origin)
 After merging:
-C1 <= C2 <= C3(origin) <= (HEAD)C4
+C1 <= C2 <= C3(origin) <= (HEAD)C4  
 |____________________________|
 
 ### Git ignore (create file .gitignore)
@@ -70,6 +70,6 @@ You are in branch B2. *"git rebase master"* will move B2 to master.( Can make me
 
 - **git rebase --preserve-merges**
 - **git reset < commit id >**: move back to a previous commit, discarding any changes that made after that commit.
-- **git reset --hard**
-- **git reset --soft**
+- **git reset --hard**: change HEAD but not keep your working
+- **git reset --soft**: change HEAD but still keep your working
 - **git cherry-pick < branch >**: copy branch.
