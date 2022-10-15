@@ -24,6 +24,7 @@ GIT REMOTE includes:
 
 - **git init**: Initialize empty git repo.
 - **git remote add < origin > < https: remote >** link local repo to remote repo.
+- **git remote set-url origin < https.... >**.
 - **git remote -v**: info if remote.
 - **git add < ., file, --all, -A >**: file will be staged in Staging Environment, ready to be committed to the repo you are working.
 - **git rm --cached < file >**: unstage
